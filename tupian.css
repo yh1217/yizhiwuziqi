@@ -1,0 +1,55 @@
+slider {
+            width: 710/16rem;
+            height: 400/16rem;
+            border: solid 1/16rem #eee;
+            position: relative;
+            overflow: hidden;
+            ul {
+                width: 3500/16rem;     
+                list-style: none;
+                position: relative;
+                li {
+                    width: 710/16rem;
+                    float: left;
+                    a {
+                        display: inline-block;
+                        width: 710/16rem;
+                        height: 400/16rem;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    p {
+                        display: block;
+                        width: 710/16rem;
+                        height: 30/16rem;
+                        font-size: 18/16rem;
+                        text-align: center;
+                        font-family: "微软雅黑";
+                        background-color: black;
+                        color: white;
+                        margin-top: -30/16rem;
+                    }
+                }
+            }
+            .btn {
+                position: absolute;
+                right: 10px;
+                bottom: 5px;
+                text-align: center;
+                font-size: 15/16rem;
+                line-height: 26/16rem;
+                span {
+                    cursor: pointer;
+                    display: block;
+                    float: left;
+                    width: 28px;
+                    height: 28px;
+                    background: #0C79B1;
+                    margin-left: 3/16rem;
+                    color: #fff;
+                }
+                .active {
+                    background: #b63e1a;
+                }
+            }
+        }

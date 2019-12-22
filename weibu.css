@@ -1,0 +1,86 @@
+.footer {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 14px;
+	background: #525252;
+	clear: both;
+}
+.footer_div {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0px 0;
+}
+.footer_tit {
+	line-height: 40px;
+	border-bottom: 1px solid #fff;
+}
+.footer_left {
+	float: left;
+	width: 250px;
+}
+.footer_left ul {
+	margin-top: 15px;
+}
+.footer_left ul li {
+	height: 30px;
+	width:  10px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	line-height: 10px;
+}
+.clear {
+	clear: both;
+}
+.footer_left ul li span {
+	display: block;
+}
+.footer_left ul li a {
+	color: #fff;
+}
+.footer_center {
+	float: left;
+	width: 398px;
+	margin: 0 75px;
+}
+.footer_p {
+	line-height: 22px;
+	margin-top: 15px;
+	margin-bottom: 6px;
+	font-size: 14px;
+}
+.footer_right {
+	float: left;
+	width: 200px;
+}
+.footer_right p {
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	text-align: left;
+}
+.footer_right p a {
+	color: #fff;
+}
+.footer_right .info p {
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 0;
+}
+.footer_bottom {
+	color: #4d4d4d;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	background: #e6e6e6;
+	clear: both;
+}
+/*尾部-结束*/
+.loop{
+	height: 100px;
+    padding: 100px;
+    text-align: center;
+    background: #e74c3c;
+}
